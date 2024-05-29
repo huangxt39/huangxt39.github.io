@@ -49,12 +49,12 @@
     <!-- Title -->
     <div class="title">
       {% if entry.url %}
-      <a href="{{ entry.url }}" style="color:inherit"> {{ entry.title }} </a>
+        <a href="{{ entry.url }}" style="color:inherit"> {{ entry.title }} </a>
       {% else %}
-      {{ entry.title }}
+        {{ entry.title }}
       {% endif %}
     </div>
-    
+
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}

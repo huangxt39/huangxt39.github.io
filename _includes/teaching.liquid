@@ -1,10 +1,11 @@
 <div class="news">
-    <div
-      class="table-responsive"
-    >
-      <table class="table table-sm table-borderless">
-        {% for item in site.data.teaching %}
-          {% comment %} <tr>
+  <div
+    class="table-responsive"
+  >
+    <table class="table table-sm table-borderless">
+      {% for item in site.data.teaching %}
+        {% comment %}
+          <tr>
             <td scope="row" style="width: 20%">{{ item.term }}</td>
             <td style="width: 15%" > {{ item.type }} </td>
             <td>
@@ -14,17 +15,18 @@
               {{ item.title }}
               {% endif %}
             </td>
-          </tr> {% endcomment %}
-          <div style="margin-top: 1rem;">
+          </tr>
+        {% endcomment %}
+        <div style="margin-top: 1rem;">
           {{ item.type }},
           {% if item.url %}
-          <a style="font-weight: bolder;" href="{{ item.url }}">{{ item.title }}</a>
+            <a style="font-weight: bolder;" href="{{ item.url }}">{{ item.title }}</a>
           {% else %}
-          <a style="font-weight: bolder;">{{ item.title }}</a>
+            <a style="font-weight: bolder;">{{ item.title }}</a>
           {% endif %}
           , {{ item.term }}
-          </div>
-        {% endfor %}
-      </table>
-    </div>
+        </div>
+      {% endfor %}
+    </table>
+  </div>
 </div>
