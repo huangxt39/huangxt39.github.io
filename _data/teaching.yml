@@ -1,7 +1,11 @@
+- term: Winter term 2024/25
+  type: Seminar
+  title: Augmenting Language Models with Tools and Knowledge
+  url: https://lacoco-lab.github.io/courses/knowledge-2024/
 - term: Summer term 2024
   type: Seminar
   title: Probing and Analyzing Neural Language Models
   url: https://lacoco-lab.github.io/courses/probing-2024/
-- term: Nov. 2023
+- term: Nov. 2023; Dec. 2024
   type: Guest lecture
   title: Foundations of Mathematics
