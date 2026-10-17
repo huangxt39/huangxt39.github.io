@@ -16,6 +16,6 @@ teaching: true
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a PhD student at Saarland University, advised by [Michael Hahn](https://www.mhahn.info). I'm part of [Language, Computation, and Cognition Lab (LaCoCo)](https://lacoco-lab.github.io/home/). I'm currently doing a research internship at Tencent. I obtained my Master's degree in IT and Cognition at University of Copenhagen, and Bachelor's degree in Intelligence Science and Technology at Sun Yat-sen University.
+I'm a PhD student at Saarland University, advised by [Michael Hahn](https://www.mhahn.info). I'm part of [Language, Computation, and Cognition Lab (LaCoCo)](https://lacoco-lab.github.io/home/). During my PhD, I also spent time at Tencent as a research intern. Before that, I obtained my Master's degree in IT and Cognition at University of Copenhagen, and Bachelor's degree in Intelligence Science and Technology at Sun Yat-sen University.
 
-I’m broadly interested in Machine Learning and Natural Language Processing. My current research interest lies in interpretability of neural language models. Since the start of my PhD study, I've been working in this field, aiming to unravel the mysteries of neural networks and understand their inner-workings.
+My research focuses on understanding how language models work through mechanistic interpretability and theoretical analysis. During my PhD, I have developed methods for interpreting neural representations and uncovering the algorithms learned by transformers. More recently, I have also explored reinforcement learning for language model reasoning.
